@@ -251,7 +251,7 @@ if mostrar_animacion:
     elif formato_exportacion == "MP4":
         anim.save("orbita.mp4", writer="ffmpeg")
     else:
-        display(HTML(anim.to_jshtml()))
+        st.video("orbita.mp4")   # si exportás como MP4
     plt.close(fig2)
 
 
