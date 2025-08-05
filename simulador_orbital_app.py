@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.patches import Circle
 from matplotlib.collections import LineCollection
-from IPython.display import HTML
+# from IPython.display import HTML
 import matplotlib.cm as cm
 import matplotlib.colors as mcolors
 
